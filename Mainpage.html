@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="Planters.css">
+     <script  src="mainpagebuttons.js"></script>
+     <script  src="calculations.js"></script>
+    </head>
+    <body>
+        <Header> 
+            <h1 class="font">SAIT PLANTERS </h1>
+            <p class="fonty">contact: 403-284-7248 </p>
+        </Header>  
+
+        <fieldset>
+            <legend><b><i>Personal Information</i></b></legend>
+            <form>
+                <label for="fname"> First Name:</label><br>
+                <input    type="text" id="fname"  autofocus /><br>
+                <label  for="lname"> Last Name : </label><br>
+                <input    type="text" id="lname" /> <br>
+                <label for="address"> Address : </label><br>
+                <input    type="text"  id="address"><br>
+                <label for="pcode"> Postal Code: </label><br>
+                <input    type="text" id="pcode" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]"/><br> 
+                <label >Phone Number: </label><br>
+                <input    type="tel"><br>
+                <label> E-mail:</label><br>
+                <input    type="email"><br><br>
+            </form>
+        </fieldset>   <br><br>
+        
+        <div class="buttonss">
+        <input type="button" value="Square" onclick="getSquare()">         
+        <input type="button" value="Flat" onclick="getFlat()">            
+        <input type="button" value="Spherical" onclick="getSpherical()"> 
+        <input type="button" value="Truncated" onclick="getTruncated()">
+        </div>
+        
+   
+        <div id="displayapp">
+        </div>
+
+
+    </body>
+</html>

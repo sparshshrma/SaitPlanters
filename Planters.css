@@ -1,0 +1,20 @@
+header{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: gold ;
+    text-align: center;
+}
+.font{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.fonty{
+    font-size: small;
+}
+
+body {
+     background-color: blanchedalmond;
+     
+}
